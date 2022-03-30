@@ -3,7 +3,7 @@ package task_2;
 import java.sql.SQLException;
 import java.util.Scanner;
 
-public class BookBASE {
+public class Codified {
 
     public static void main(String[] args) throws SQLException {
         // flag to change state when program termination is initiated
@@ -18,7 +18,7 @@ public class BookBASE {
         // overall program loop
         while (running) {
             // menu options displayed in terminal
-            System.out.println("\nWelcome to bookBASE!");
+            System.out.println("\nWelcome to codified!");
             System.out.println("Please select your function from the menu below:");
             System.out.println("'1' to ADD a book to bookBASE.");
             System.out.println("'2' to UPDATE a book in bookBASE.");
